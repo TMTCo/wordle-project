@@ -36,3 +36,12 @@ footer {
     text-align: center;
     padding: 10px;
 }
+/* DIVIDER & FOOTER */
+.divider{max-width:1100px;margin:0 auto;border:none;border-top:1px solid var(--border)}
+footer{max-width:1100px;margin:0 auto;padding:2rem 2rem 3rem;display:flex;
+align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+footer p{color:var(--muted);font-size:.85rem}
+.footer-links{display:flex;gap:1.5rem;flex-wrap:wrap}
+.footer-links a{color:var(--muted);font-size:.85rem;transition:color var(--transition)}
+.footer-links a:hover{color:var(--text)}
+.back-row{margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border)}
